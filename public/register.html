@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Flashit Grocery Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login-style.css">
+</head>
+<body>
+    <div class="registration-container">
+        <h2><i class="fa fa-shopping-basket"></i> Register for Flashit</h2>
+        <form id="registration-form">
+            <div class="input-group">
+                <label for="username"><i class="fa-solid fa-user"></i> Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password"><i class="fa-solid fa-lock"></i> Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password"><i class="fa-solid fa-lock"></i> Confirm Password</label>
+                <input type="password" id="confirm-password" required>
+            </div>
+            <div class="input-group">
+                <label for="email"><i class="fa-solid fa-envelope"></i> Email (optional)</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <!-- Add any other fields as needed -->
+            <button type="submit"><i class="fa-solid fa-user-plus"></i> Register</button>
+        </form>
+        <p class="login-link">Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+
+    <!-- JavaScript for form submission -->
+    <script src="js/register.js"></script>
+</body>
+</html>

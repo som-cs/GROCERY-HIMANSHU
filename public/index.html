@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashit Grocery Shop</title>
+    <!-- Include the Tailwind CSS CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Additional styles specific to this page -->
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Top Navigation with Login and Sign Up Buttons -->
+    <nav class="bg-green-600 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <img src="logo.png" alt="Flashit Grocery Shop Logo" class="h-20">
+            <div class="space-x-4">
+                <a href="/login" class="text-white font-semibold hover:underline text-lg px-4 py-2 font-bold">Login</a>
+                <a href="/signup" class="text-white font-semibold hover:underline text-lg px-4 py-2 font-bold">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gray-200 py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl text-gray-800 font-semibold">Welcome to Flashit Grocery Shop</h2>
+            <p class="mt-4 text-gray-600 text-lg">Shop for your groceries with ease and convenience.</p>
+            <a href="#" class="mt-6 inline-block px-6 py-3 bg-green-500 text-white font-semibold rounded-full hover:bg-green-700 transition duration-300">Start Shopping</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl text-gray-800 font-semibold">Why Choose Us?</h2>
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="text-4xl text-green-500 fas fa-shopping-cart mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800">Wide Selection</h3>
+                    <p class="mt-4 text-gray-600">Choose from a wide range of grocery items.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="text-4xl text-green-500 fas fa-clock mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800">Fast Delivery</h3>
+                    <p class="mt-4 text-gray-600">We deliver your groceries quickly to your doorstep.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="text-4xl text-green-500 fas fa-dollar-sign mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800">Affordable Prices</h3>
+                    <p class="mt-4 text-gray-600">Enjoy affordable prices on all your favorite products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl text-gray-800 font-semibold">About Us</h2>
+            <p class="mt-6 text-gray-600 text-lg">Flashit Grocery Shop is committed to providing high-quality groceries with a seamless shopping experience. We believe in convenience and affordability.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl text-gray-800 font-semibold">Contact Us</h2>
+            <p class="mt-6 text-gray-600 text-lg">Have questions or need assistance? Contact our friendly support team.</p>
+            <a href="mailto:info@flashitgroceryshop.com" class="mt-4 inline-block px-6 py-3 bg-green-500 text-white font-semibold rounded-full hover:bg-green-700 transition duration-300">Email Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <div class="container mx-auto">
+            <p>&copy; 2023 Flashit Grocery Shop</p>
+        </div>
+    </footer>
+</body>
+</html>

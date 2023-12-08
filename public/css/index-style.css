@@ -1,0 +1,169 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #555;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Features Section Styles */
+.features {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.features .feature {
+    margin-bottom: 30px;
+}
+
+.features i {
+    font-size: 2rem;
+    color: #333;
+}
+
+.features h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.features p {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial blockquote {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.testimonial .author {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.1rem;
+}
+
+.text-golden {
+    color: #FFD700; /* Golden color code */
+}
+
+/* Responsive Styles (for smaller screens) */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+}

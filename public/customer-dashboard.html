@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Dashboard - Flashit Grocery Shop</title>
+    <!-- Include the Tailwind CSS CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Additional styles specific to this page -->
+    <link href="css/customer-dashboard.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Sidebar -->
+    <aside class="bg-blue-600 text-white h-screen w-64 fixed left-0 top-0 flex flex-col justify-between">
+        <!-- Logo and Title -->
+        <div class="p-4 text-center">
+            <i class="fas fa-shopping-cart text-4xl"></i>
+            <h1 class="text-2xl font-semibold mt-2">Customer Dashboard</h1>
+        </div>
+        <!-- Navigation -->
+        <nav class="p-2">
+            <ul>
+                <li class="mb-2"><a href="#" class="block text-gray-200 hover:bg-blue-700 px-4 py-2 rounded">Home</a></li>
+                <li class="mb-2"><a href="#" class="block text-gray-200 hover:bg-blue-700 px-4 py-2 rounded">Shop Products</a></li>
+                <li class="mb-2"><a href="#" class="block text-gray-200 hover:bg-blue-700 px-4 py-2 rounded">My Orders</a></li>
+                <li class="mb-2"><a href="#" class="block text-gray-200 hover:bg-blue-700 px-4 py-2 rounded">Profile</a></li>
+            </ul>
+        </nav>
+        <!-- Logout Button -->
+        <div class="p-4 text-center">
+            <a href="/logout" class="block text-gray-200 hover:bg-blue-700 px-4 py-2 rounded">Logout</a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="ml-64 p-6">
+        <h2 class="text-3xl font-semibold mb-4">Welcome, Customer!</h2>
+        <p>Welcome to your dashboard. Browse products, view your orders, and update your profile.</p>
+        <!-- Add product listings, order history, and profile information here -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <div class="container mx-auto">
+            <p>&copy; 2023 Flashit Grocery Shop</p>
+        </div>
+    </footer>
+</body>
+</html>
